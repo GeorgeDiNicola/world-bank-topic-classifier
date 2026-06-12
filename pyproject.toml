@@ -3,7 +3,7 @@ requires = ["setuptools>=82.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "world-bank-topic-classifier"
+name = "world_bank_topic_classifier"
 version = "0.1.0"
 description = "A python application that uses natural language processing to classify world bank indicator names and descriptions into topics."
 readme = "README.md"
@@ -11,3 +11,6 @@ requires-python = ">=3.12"
 authors = [
   {name = "George DiNicola"}
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
