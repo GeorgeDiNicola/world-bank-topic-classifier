@@ -6,7 +6,6 @@ from dataclasses import asdict
 from .data_processing import extract_lists, get_unique_topics
 from .model import CategorizedIndicator
 from .ml import TopicClassifier
-from .observations import split_observations_by_topic
 from .utils import check_env_boolean_required
 
 def run_classification(
